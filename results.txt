@@ -1,1 +1,2 @@
-model accuracy: 0.95
+Train R² Score: 0.4115
+Train MSE:       0.1471
