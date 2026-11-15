@@ -1,2 +1,2 @@
-Train R² Score: 0.4115
-Train MSE:       0.1471
+Train Accuracy: 0.7814
+Train F1-Score: 0.7775
