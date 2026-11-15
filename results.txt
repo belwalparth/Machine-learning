@@ -1,2 +1,2 @@
-Train Accuracy: 0.7814
-Train F1-Score: 0.7775
+Train Accuracy: 0.7813
+Train F1-Score: 0.7774
