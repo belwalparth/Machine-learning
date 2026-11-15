@@ -8,7 +8,7 @@ A notebook-based machine learning project for exploring and classifying credit c
 - `train.csv` and `test.csv` — training and test data.
 - `sample_submission.csv` — example submission structure.
 - `playground-series-s6e11.zip` — archived dataset bundle.
-- `results.txt` — recorded training metrics.
+- `results.txt` — recorded training and local test metrics.
 
 ## Getting started
 
@@ -25,13 +25,13 @@ The repository includes the CSV files directly, so the ZIP archive is not requir
 
 ## Recorded results
 
-`results.txt` reports the following training-set metrics:
+According to `results.txt`:
 
-- Accuracy: `0.7813`
-- F1 score: `0.7774`
+- Train accuracy: `0.7824`
+- Local test accuracy: `0.8212`
 
-These are training metrics, not a measure of performance on a held-out test set. For fraud detection, also consider class imbalance and evaluate with appropriate validation metrics before using the model in production.
+These are accuracy metrics; they do not capture all aspects of model performance. For fraud detection, also consider class imbalance and evaluate with appropriate validation metrics, such as precision, recall, and F1 score, before using the model.
 
 ## Notes
 
-This repository is an educational data science project. The datasets are large; make sure your environment has sufficient memory before loading them. The notebook and recorded metrics are provided for experimentation and learning purposes.
+This repository is an educational data science project. The datasets are large; make sure your environment has sufficient memory before loading them. The notebook and recorded metrics are provided for exploration and may need to be updated when the model or evaluation process changes.
