@@ -1,34 +1,37 @@
-# Machine Learning
+# Credit Card Fraud Detection
 
-This repository contains a machine learning project focused on credit card fraud detection.
+A notebook-based machine learning project for exploring and classifying credit card transactions as fraudulent or legitimate.
 
-## Overview
+## Project contents
 
-The main artifact is `Creditcardfraud.ipynb`, a Jupyter Notebook that explores the dataset, prepares features, trains a model, and evaluates its performance.
+- `Creditcardfraud.ipynb` — end-to-end notebook for data exploration, preprocessing, model training, and evaluation.
+- `train.csv` and `test.csv` — training and test data.
+- `sample_submission.csv` — example submission structure.
+- `playground-series-s6e11.zip` — archived dataset bundle.
+- `results.txt` — recorded training metrics.
 
-## Repository contents
+## Getting started
 
-- `Creditcardfraud.ipynb` — notebook for data exploration, preprocessing, modeling, and evaluation
-- `train.csv` — training dataset
-- `test.csv` — test dataset
-- `sample_submission.csv` — example output format for submissions
-- `results.txt` — recorded model performance metrics
-- `playground-series-s6e11.zip` — archived dataset bundle related to the competition/task
+1. Clone or download this repository and open `Creditcardfraud.ipynb` in Jupyter Notebook, JupyterLab, or Google Colab.
+2. Install the notebook's Python dependencies if they are not already available:
 
-## Current results
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+   ```
 
-The repository includes the following training metrics in `results.txt`:
+3. Ensure the CSV files are available in the notebook's working directory, then run the notebook cells in order.
 
-- Train Accuracy: 0.7814
-- Train F1-Score: 0.7775
+The repository includes the CSV files directly, so the ZIP archive is not required to run the notebook when those files are present.
 
-## Usage
+## Recorded results
 
-1. Open `Creditcardfraud.ipynb` in Jupyter Notebook or JupyterLab.
-2. Run the cells in order to reproduce the preprocessing and model training workflow.
-3. Use the provided CSV files for the dataset inputs and submission structure.
-4. Libraries used: Pandas, Numpy, MathPlotlib, Seaborne, skLearn
+`results.txt` reports the following training-set metrics:
+
+- Accuracy: `0.7814`
+- F1 score: `0.7775`
+
+These are training metrics, not a measure of performance on a held-out test set. For fraud detection, also consider class imbalance and evaluate with appropriate validation metrics before using a model for real-world decisions.
 
 ## Notes
 
-This project is a data science and machine learning exercise centered on a fraud-classification problem. The repository currently contains notebook-based work and dataset files rather than a packaged application or library.
+This repository is an educational data science project. The datasets are large; make sure your environment has sufficient memory before loading them. The notebook and recorded metrics are provided for exploration and should not be treated as evidence of production readiness.
