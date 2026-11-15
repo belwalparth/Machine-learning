@@ -1,5 +1,2 @@
 Train Accuracy: 0.7824
-Train F1-Score: 0.7791
 Local Test Accuracy: 0.8212
-Local Test F1-Score: 0.1245
-Local Test ROC-AUC:  0.8778
