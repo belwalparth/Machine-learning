@@ -27,11 +27,11 @@ The repository includes the CSV files directly, so the ZIP archive is not requir
 
 `results.txt` reports the following training-set metrics:
 
-- Accuracy: `0.7814`
-- F1 score: `0.7775`
+- Accuracy: `0.7813`
+- F1 score: `0.7774`
 
-These are training metrics, not a measure of performance on a held-out test set. For fraud detection, also consider class imbalance and evaluate with appropriate validation metrics before using a model for real-world decisions.
+These are training metrics, not a measure of performance on a held-out test set. For fraud detection, also consider class imbalance and evaluate with appropriate validation metrics before using the model in production.
 
 ## Notes
 
-This repository is an educational data science project. The datasets are large; make sure your environment has sufficient memory before loading them. The notebook and recorded metrics are provided for exploration and should not be treated as evidence of production readiness.
+This repository is an educational data science project. The datasets are large; make sure your environment has sufficient memory before loading them. The notebook and recorded metrics are provided for experimentation and learning purposes.
