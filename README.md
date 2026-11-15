@@ -27,6 +27,7 @@ The repository includes the following training metrics in `results.txt`:
 1. Open `Creditcardfraud.ipynb` in Jupyter Notebook or JupyterLab.
 2. Run the cells in order to reproduce the preprocessing and model training workflow.
 3. Use the provided CSV files for the dataset inputs and submission structure.
+4. Libraries used: Pandas, Numpy, MathPlotlib, Seaborne, skLearn
 
 ## Notes
 
