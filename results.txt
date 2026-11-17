@@ -1,2 +1,2 @@
-Train Accuracy: 0.7824
+Train Accuracy: 0.7992
 Local Test Accuracy: 0.8212
